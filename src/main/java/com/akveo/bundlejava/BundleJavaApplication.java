@@ -28,18 +28,18 @@ public class BundleJavaApplication {
         SpringApplication.run(BundleJavaApplication.class, args);
     }
 
-    @Bean
-    public CommandLineRunner start(FileSearch fileSearch){
-        return (String... args) -> {
-//            System.out.println(OffsetDateTime.parse("2007-12-03T10:15:30+00:00"));
-//            Resume resume = Resume.builder().id("1180c2305764e45c3419a046df345eac")
-//                    .meta(FileMetaData.builder().date(OffsetDateTime.parse("2018-03-08T09:39:05.000+00:00"))
-//                            .build()).build();
-//            fileSearch.save(resume);
-//                          fileSearch.findAll().forEach(file -> System.out.println(file.getMeta()));
-//            fileSearch.findByAuthor("Bako Ali").forEach(file -> System.out.println(file.getMeta()));
-
-        };
-    }
+//    @Bean
+//    public CommandLineRunner start(FileSearch fileSearch){
+//        return (String... args) -> {
+////            System.out.println(OffsetDateTime.parse("2007-12-03T10:15:30+00:00"));
+////            Resume resume = Resume.builder().id("1180c2305764e45c3419a046df345eac")
+////                    .meta(FileMetaData.builder().date(OffsetDateTime.parse("2018-03-08T09:39:05.000+00:00"))
+////                            .build()).build();
+////            fileSearch.save(resume);
+////                          fileSearch.findAll().forEach(file -> System.out.println(file.getMeta()));
+////            fileSearch.findByAuthor("Bako Ali").forEach(file -> System.out.println(file.getMeta()));
+//
+//        };
+//    }
 
 }

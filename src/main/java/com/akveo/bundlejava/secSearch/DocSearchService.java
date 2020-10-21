@@ -59,10 +59,10 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.toList;
-import static sun.misc.JarIndex.INDEX_NAME;
 
 @Service
 public class DocSearchService {
+
     private static final String FILE_DIRECTORY = "C:/Users/crona/Desktop/fscrawler-es7-2.7-SNAPSHOT/resumes";
 
 
